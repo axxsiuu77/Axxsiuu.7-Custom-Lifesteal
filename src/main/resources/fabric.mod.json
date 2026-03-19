@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "axxsiuu7s-custom-lifesteal",
+	"version": "${version}",
+	"name": "Axxsiuu.7's Custom Lifesteal",
+	"description": "Lifesteal Mod by Axxsiuu.7",
+	"authors": [
+		"Axxsiuu.7"
+	],
+	"contact": {
+		"homepage": "https://github.com/axxsiuu77",
+		"sources": "https://github.com/axxsiuu77/Axxsiuu.7-s-Custom-Lifesteal"
+	},
+	"license": "MIT",
+	"icon": "assets/axxsiuu7s-custom-lifesteal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.axxsiuu7.lifesteal.Axxsiuu7sCustomLifesteal"
+		],
+		"fabric-datagen": [
+			"com.axxsiuu7.lifesteal.Axxsiuu7sCustomLifestealDataGenerator"
+		],
+        "client": [
+          "com.axxsiuu7.lifesteal.Axxsiuu7sCustomLifeStealClient"
+        ]
+	},
+	"mixins": [
+		"axxsiuu7s-custom-lifesteal.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
