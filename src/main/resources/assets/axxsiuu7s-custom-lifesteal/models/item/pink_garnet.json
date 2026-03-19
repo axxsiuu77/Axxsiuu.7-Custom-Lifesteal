@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "axxsiuu7s-custom-lifesteal:item/pink_garnet"
+  }
+}
