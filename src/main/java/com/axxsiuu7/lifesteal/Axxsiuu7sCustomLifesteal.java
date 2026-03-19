@@ -14,4 +14,3 @@ public class Axxsiuu7sCustomLifesteal implements ModInitializer {
 
 	}
 }
-//
